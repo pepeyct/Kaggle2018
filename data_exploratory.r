@@ -59,6 +59,8 @@ test  = within(test,rm( X11,X93,X107,X233,X235,X268,X289,X290,X293,X297,X330,X34
 
 head(train)
 head(test)
+
+test_1= train[,1]
 #############################
 
 
