@@ -12,7 +12,7 @@ library('forcats') # factor manipulation
 library('xgboost')
 library('randomForest')
 library('party')
-set.seed(415)
+set.seed(123)
 #set work dirct
 setwd("C:/Users/CZhao/Dropbox/DataScience/Kaggle Competitions/Mercedes-Benz Greener Manufacturing")
 workpath = getwd()
@@ -26,6 +26,7 @@ head(train)
 glimpse(train)
 
 train %>% select(y,X0:X12) %>% glimpse()
+head(train)
 
 # check missing value of the whole datasets
 train  %>% map_df(function(col) sum(is.na(col)))  %>% gather()   %>% summarise(count_of_nas = sum(value,na.rm=T))
