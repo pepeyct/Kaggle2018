@@ -56,6 +56,9 @@ uniqueValueVariable = which(length_value_range==1)
 train = within(train,rm( X11,X93,X107,X233,X235,X268,X289,X290,X293,X297,X330,X347))
 test  = within(test,rm( X11,X93,X107,X233,X235,X268,X289,X290,X293,X297,X330,X347))
 
+
+head(train)
+head(test)
 #############################
 
 
