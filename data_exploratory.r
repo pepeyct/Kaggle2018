@@ -12,7 +12,7 @@ library('forcats') # factor manipulation
 library('xgboost')
 library('randomForest')
 library('party')
-set.seed(123)
+set.seed(134)
 #set work dirct
 setwd("C:/Users/CZhao/Dropbox/DataScience/Kaggle Competitions/Mercedes-Benz Greener Manufacturing")
 workpath = getwd()
